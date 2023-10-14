@@ -8,8 +8,8 @@ module.exports = module.exports = {
     USER: "u2015014_admin",
     PASSWORD: "oE8iU2uN4rqX6rB2",
     DATABASE: "u2015014_projectx",
-    NEXTAUTH_URL: "http://localhost:3000",
+    NEXTAUTH_URL: "https://projectx-orpin.vercel.app/",
     NEXTAUTH_SECRET: "Ey7nTKnggBc0bRN8WUjyShw2qzOZ6KW4fUyqcKBePxY=",
-    NEXT_PUBLIC_URL: "http://localhost:3000",
+    NEXT_PUBLIC_URL: "https://projectx-orpin.vercel.app/",
   },
 };
