@@ -129,8 +129,8 @@ export const TableEventRow = ({
     <>
       <tr>
         <td>{index}</td>
-        <td>{executorName}</td>
-        <td>{curatorName}</td>
+        <td>{executorName && executorName}</td>
+        <td>{curatorName && curatorName}</td>
         <td>{title}</td>
         <td>{date}</td>
         <td>
