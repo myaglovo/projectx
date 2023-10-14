@@ -6,11 +6,29 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "json-server": "json-server --watch data/events.json --port 3001"
   },
   "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bootstrap": "^5.3.1",
+    "bootstrap-icons": "^1.10.5",
+    "fs": "^0.0.1-security",
+    "json-server": "^0.17.3",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.1",
     "next": "13.4.19",
+    "next-auth": "^4.23.1",
+    "path": "^0.12.7",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-bootstrap": "^2.8.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
+    "react-json-to-csv": "^1.2.0",
+    "short-uuid": "^4.2.2"
+  },
+  "browser": {
+    "fs": false
   }
 }
