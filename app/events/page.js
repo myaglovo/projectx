@@ -136,8 +136,6 @@ export default function Calendar() {
     <div>
       <ToastComponent status={toastStatus} setToastStatus={setToastStatus} />
       <div className="mb-4 mt-5">
-        <p>{process.env.NEXT_PUBLIC_URL}</p>
-        <p>{process.env.NEXTAUTH_URL}</p>
         <h1 className="text-center mb-4">Календарь мероприятий</h1>
         <div className="row px-2 justify-content-center">
           {!eventsData.length && !cardsLoading && zeroState}
