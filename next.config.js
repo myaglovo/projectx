@@ -9,7 +9,7 @@ module.exports = {
     // Указать время жизни кэша в миллисекундах (0 - выключить кэширование)
     maxInactiveAge: 0,
   },
-  distribution: "local",
+  distribution: "none",
   env: {
     HOST: "server210.hosting.reg.ru",
     USER: "u2015014_admin",
