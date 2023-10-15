@@ -5,7 +5,7 @@ import { useSession } from "next-auth/react";
 import { usePathname } from "next/navigation";
 import MenuSkeleton from "../CardSkeleton/MenuSkeleton";
 
-const UsersLink = () => <NavLink text="Пользователя" href="users" />;
+const UsersLink = () => <NavLink text="Пользователи" href="users" />;
 const EventsLink = () => <NavLink text="Мероприятия" href="events" />;
 const ReporsLink = () => <NavLink text="Отчёты" href="reports" />;
 const MembersLink = () => <NavLink text="Участники" href="members" />;

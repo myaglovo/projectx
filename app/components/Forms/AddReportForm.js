@@ -163,7 +163,7 @@ export function AddReportForm({
             <option value="0">Не пришёл (0 баллов)</option>
             <option value="1">Посещение мероприятия (1 балл)</option>
             <option value="3">Активное участие в мероприятии (3 балла)</option>
-            <option value="5">Занял призовое мест (5 баллов)</option>
+            <option value="5">Занял призовое место (5 баллов)</option>
           </Form.Select>
         </Form.Group>
 
