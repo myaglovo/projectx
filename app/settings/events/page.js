@@ -148,13 +148,17 @@ export default function EventsPage() {
     let events = await res.json();
 
     if (session.user.role === "executor") {
-      events = events.filter((event) => event.executor_id === session.user.id);
+      events = events.filter(
+        (event) => event.event_executor_id == session.user.id
+      );
     }
+
     if (session.user.role === "curator") {
       events = events.filter(
         (event) => event.event_curator_id === session.user.id
       );
     }
+
     const sortedEvents = sortByDate(events, "desc");
     setEventData(sortedEvents);
     setFirstLoading(false);
