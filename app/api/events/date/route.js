@@ -4,7 +4,7 @@ import { queryToDB } from "@/utils/db";
 export async function GET() {
   try {
     const data = await queryToDB({
-      query: "SELECT * from events WHERE event_date >= CURDATE()",
+      query: "SELECT * from events WHERE DATE(event_date) >= CURDATE()",
       values: [],
     });
 
