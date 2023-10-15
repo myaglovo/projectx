@@ -137,12 +137,10 @@ export function EditReportForm({
             onChange={handleInputChange}
             required
             disabled
-            value={selectedObject.event_id ? selectedObject.event_id : ""}
+            value={selectedObject ? selectedObject.event_id : ""}
           >
-            <option
-              value={selectedObject.event_id ? selectedObject.event_id : ""}
-            >
-              {selectedObject.event_id ? selectedObject.event_title : ""}
+            <option value={selectedObject ? selectedObject.event_id : ""}>
+              {selectedObject ? selectedObject.event_title : ""}
             </option>
           </Form.Select>
         </Form.Group>
