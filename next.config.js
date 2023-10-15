@@ -3,13 +3,6 @@
 module.exports = {
   reactStrictMode: true,
   swcMinify: true,
-  onDemandEntries: {
-    // Разрешить кэширование только для прокси-сервера
-    cache: "memory",
-    // Указать время жизни кэша в миллисекундах (0 - выключить кэширование)
-    maxInactiveAge: 0,
-  },
-  distribution: "none",
   env: {
     HOST: "server210.hosting.reg.ru",
     USER: "u2015014_admin",
