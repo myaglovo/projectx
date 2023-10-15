@@ -28,7 +28,7 @@ export default function Calendar() {
       cache: "no-store",
     };
     const res = await fetch(
-      `${process.env.NEXT_PUBLIC_URL}/api/events`,
+      `${process.env.NEXT_PUBLIC_URL}/api/events/date`,
       getData
     );
     const events = await res.json();
